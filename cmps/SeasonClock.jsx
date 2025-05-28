@@ -36,7 +36,7 @@ useEffect(() => {
       <div onClick={toggleDarkMode} className={counterStyle()}>
         <section>
           <h2>{month} ({getSeason(date.getMonth())})</h2>
-          <img src={`./assets/img/${getSeason(date.getMonth())}.png`} alt="Season" />
+          <img src={`./public/img/${getSeason(date.getMonth())}.png`} alt="Season" />
           <h3>{day}</h3>
           <h4>{date.toLocaleTimeString()}</h4> {/* live clock */}
         </section>
